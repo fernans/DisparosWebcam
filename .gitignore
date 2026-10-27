@@ -1,0 +1,16 @@
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store
+*.bak
+*.tmp
+*.log
+
+# Fuera de scope del repositorio
+documentos/
+material/
+DisparosSetup/
+entregas/intentos/
+
+# Entregables finales (se publican como assets de GitHub Release)
+entregas/definitivos/

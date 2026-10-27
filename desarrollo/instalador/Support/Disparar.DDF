@@ -1,0 +1,37 @@
+.OPTION EXPLICIT
+.Set Cabinet=off
+.Set Compress=off
+.Set MaxDiskSize=CDROM
+.Set ReservePerCabinetSize=6144
+.Set DiskDirectoryTemplate=".."
+.Set CompressionType=MSZIP
+.Set CompressionLevel=7
+.Set CompressionMemory=21
+.Set CabinetNameTemplate="Disparar.CAB"
+"Setup.Lst"
+"setup.exe"
+.Set Cabinet=on
+.Set Compress=on
+"Disparar.exe"
+"msvbvm60.dll"
+"oleaut32.dll"
+"olepro32.dll"
+"asycfilt.dll"
+"stdole2.tlb"
+"COMCAT.DLL"
+"VB6ES.DLL"
+"msimg32.dll"
+"FreeImage.dll"
+"FlDbg9c.ocx"
+"scrrun.dll"
+"msvcrt.dll"
+"scrrnes.dll"
+"CaptureWindow.dll"
+"SETUP1.EXE"
+"VB6STKIT.DLL"
+"ST6UNST.EXE"
+"musicaJuego.mp3"
+"interfaz.swf"
+"musica1.mp3"
+"musica2.mp3"
+"plantilla.png"
